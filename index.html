@@ -14,40 +14,51 @@
 </head>
 
 <body>
-  <header>
+  <header class="navbar">
     <img src="./assets/logo.pn" alt="">
 
     <ul>
       <a href="#">
-        <li>
+        <li data-section="menu" data-value="start">
           Início
         </li>
       </a>
 
       <a href="#"> 
-        <li>
+        <li data-section="menu" data-value="store">
           Loja
         </li>
       </a>
       
 
       <a href="#">
-        <li>
+        <li data-section="menu" data-value="past kits">
           Kits passados
         </li>
       </a>
 
       <a href="#">
-        <li>
+        <li data-section="menu" data-value="producers">
           Produtores
         </li>
       </a>
 
       <a href="#">
-        <li>
+        <li data-section="menu" data-value="blog">
           Blog
         </li>
       </a>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="br" >
+          <img src="assets/br.png" alt="" />
+        </div>
+        <div class="flags__item" data-language="en" >
+          <img src="assets/en.png" alt="" />
+        </div>
+        <div class="flags__item" data-language="es" >
+          <img src="assets/es.png" alt="" />
+        </div>
+      </div>
     </ul>
   </header>
   <div class="container">
@@ -55,17 +66,17 @@
       <img src="./assets/coffee.png" alt="grão de café">
 
       <div>
-        <h4>SUPLEMENTOS ESPECIAIS TODO MÊS</h4>
+        <h4 data-section="suplemente" data-value="producto">SUPLEMENTOS ESPECIAIS TODO MÊS</h4>
 
-        <h1>𝑺𝑼𝑷𝑳𝑬𝑴𝑬𝑵𝑻𝑶𝑺</h1>
-        <h1>Café não é só uma bebida</h1>
+        <h1 data-section="suplemente" data-value="suplemente">𝑺𝑼𝑷𝑳𝑬𝑴𝑬𝑵𝑻𝑶𝑺</h1>
+        <h1 data-section="suplemente" data-value="coffee">Café não é só uma bebida</h1>
 
-        <p>Nosso Suplemento de Café é a escolha perfeita para dar um impulso à sua energia e desempenho.
+        <p data-section="suplemente" data-value="suplemente coffee">Nosso Suplemento de Café é a escolha perfeita para dar um impulso à sua energia e desempenho.
          Com ingredientes naturais cuidadosamente selecionados, oferecemos uma fórmula única que proporciona
          foco e vitalidade. </p>
 
         <button>
-          <a href="">
+          <a href="" data-section="suplemente" data-value="receive">
             ASSINE E RECEBA
           </a>
         </button>
@@ -80,7 +91,7 @@
       </a>
     </button>
 
-    <p>
+    <p data-section="suplemente" data-value="surprise">
       Além disso, você também receberá mensalmente um mimo surpresa para deixar a sua experiência ainda mais gostosa.
     </p>
 
@@ -90,6 +101,7 @@
       <img src="./assets/coffee3.png" alt="">
     </div>
   </footer>
+  <script src="linguagem.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,18 @@
+{
+    "menu": {
+        "start": "Comenzar",
+        "store": "Almacenar",
+        "past kits": "Kits anteriores",
+        "producers": "Productores",
+        "blog": "Blog"
+       },
+    
+    "suplemente": {
+       "producto": "SUPLEMENTOS ESPECIALES CADA MES",
+        "suplemente": "𝑺𝑼𝑷𝑳𝑬𝑴𝑬𝑵𝑻𝑶𝑺",
+        "coffee": "El café no es sólo una bebida",
+        "suplemente coffee": "Nuestro Suplemento de Café es la elección perfecta para darle un impulso a tu energía y rendimiento. Con ingredientes naturales cuidadosamente seleccionados, ofrecemos una fórmula única que proporciona concentración y vitalidad.",
+        "receive": "SUSCRÍBETE",
+        "surprise": "Además, también recibirás un regalo sorpresa mensual para que tu experiencia sea aún más agradable."
+       }
+    }

@@ -1,0 +1,18 @@
+{
+"menu": {
+    "start": "Inicio",
+        "store": "Loja",
+        "past kits": "Kits passados",
+        "producers": "Produtores",
+        "blog": "Blog"
+       },
+    
+ "suplemente": {
+       "producto": "SUPLEMENTOS ESPECIAIS TODO MÊS",
+        "suplemente": "𝑺𝑼𝑷𝑳𝑬𝑴𝑬𝑵𝑻𝑶𝑺",
+        "coffee": "Café não é só uma bebida",
+        "suplemente coffee": "Nosso Suplemento de Café é a escolha perfeita para dar um impulso à sua energia e desempenho. Com ingredientes naturais cuidadosamente selecionados, oferecemos uma fórmula única que proporciona foco e vitalidade.",
+        "receive": "ASSINE E RECEBA",
+        "surprise": " Além disso, você também receberá mensalmente um mimo surpresa para deixar a sua experiência ainda mais gostosa."
+       }
+    }
