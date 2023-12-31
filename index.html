@@ -1,67 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Starbacks</title>
-    <link rel="stylesheet" href="Starbacks.css">
-</head>
-<body>
-    <section>
-        <div class="circle"></div>
-        <header>
-            <a href="#" class="logo"><img src="logo.png"></a>
-            <ul class="ul">
-                <li><a href="#" class="active" data-section="menu" data-value="home">Home</a></li>
-                <li><a href="#" data-section="menu" data-value="menu">Menu</a></li>
-                <li><a href="#" data-section="menu" data-value="what">what's New</a></li>
-                <li><a href="#" data-section="menu" data-value="contact">Contact</a></li>
-                <div id="flags" class="flags">
-                    <div class="flags__item" data-language="br" >
-                      <img src="br.png" alt="" />
-                    </div>
-                    <div class="flags__item" data-language="en" >
-                      <img src="en.png" alt="" />
-                    </div>
-                    <div class="flags__item" data-language="es" >
-                      <img src="es.png" alt="" />
-                    </div>
-            </ul>
-        </header>
-        <div class="content">
-            <div class="textBox">
-                <h2 data-section="text" data-value="starbacks"><br>MᴀɪꜱﾠᴅᴏﾠϙᴜᴇﾠCᴀғᴇﾠAﾠExᴘᴇʀɪᴇɴᴄɪᴀﾠ<span>Sᴛᴀʀʙᴀᴄᴋꜱ</span></h2>
-                <p data-section="text" data-value="52">Cᴏᴍﾠ52ﾠᴀɴᴏsﾠᴅᴇﾠᴅᴇᴅɪᴄᴀᴄᴀᴏﾠᴀᴏﾠᴄᴀғᴇ,ﾠᴄᴏɴᴠɪᴅᴏﾠᴠᴏᴄᴇﾠᴀﾠᴇxᴘʟᴏʀᴀʀ
-            ᴄᴏɴᴏsᴄᴏﾠᴏﾠᴜɴɪᴠᴇʀsᴏﾠᴅᴏﾠsᴀʙᴏʀ,ﾠᴛʀᴀᴅɪᴄᴀᴏﾠᴇﾠǫᴜᴀʟɪᴅᴀᴅᴇﾠᴜɴɪᴄa
-            ﾠᴅᴀﾠ"sᴛᴀʀʙᴀᴄᴋs".ﾠᴘʀᴇᴘᴀʀᴇ-sᴇﾠᴘᴀʀᴀﾠᴜᴍᴀﾠᴊᴏʀɴᴀᴅᴀﾠsᴇɴsᴏʀɪᴀʟﾠᴇɴʀɪǫᴜᴇᴄᴇᴅᴏʀa
-            ﾠﾠﾠᴇﾠᴅᴇsᴘᴇʀᴛᴇﾠsᴇᴜ AMOR pelo ᴄᴀғᴇ.</p>
-                 <a href="#" data-section="text" data-value="Learn">Learn More</a>
-                </div>
-                 <div class="imgBox">
-                     <img src="img1.png" class="starbacks">
-            </div>
-        </div>
-        <ul class="thumb">
-            <li><img src="thumb1.png" onclick="imgSlider('img1.png');changeCircleColor('#017143')"></li>
-            <li><img src="thumb2.png" onclick="imgSlider('img2.png');changeCircleColor('#eb7495')"></li>
-            <li><img src="thumb3.png" onclick="imgSlider('img3.png');changeCircleColor('#d752b1')"></li>
-        </ul>
-        <ul class="sci">
-            <li><a href="#"><img src="facebook.png"></a></li>
-            <li><a href="#"><img src="twitter.png"></a></li>
-            <li><a href="#"><img src="instagram.png"></a></li>
-        </ul>
-    </section>
-    
-     <script type="text/javascript">
-        function imgSlider(anything){
-            document.querySelector('.starbacks').src = anything;
-        }
+<html lang="pt-BR">
 
-        function changeCircleColor(color){
-            const circle = document.querySelector('.circle');
-            circle.style.background = color;
-        }
-     </script>
-<script src="linguagem.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suplementos Cafés</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="navbar">
+    <img src="./assets/logo.pn" alt="">
+
+    <ul>
+      <a href="#">
+        <li data-section="menu" data-value="start">
+          Início
+        </li>
+      </a>
+
+      <a href="#"> 
+        <li data-section="menu" data-value="store">
+          Loja
+        </li>
+      </a>
+      
+
+      <a href="#">
+        <li data-section="menu" data-value="past kits">
+          Kits passados
+        </li>
+      </a>
+
+      <a href="#">
+        <li data-section="menu" data-value="producers">
+          Produtores
+        </li>
+      </a>
+
+      <a href="#">
+        <li data-section="menu" data-value="blog">
+          Blog
+        </li>
+      </a>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="br" >
+          <img src="assets/br.png" alt="" />
+        </div>
+        <div class="flags__item" data-language="en" >
+          <img src="assets/en.png" alt="" />
+        </div>
+        <div class="flags__item" data-language="es" >
+          <img src="assets/es.png" alt="" />
+        </div>
+      </div>
+    </ul>
+  </header>
+  <div class="container">
+    <main>
+      <img src="./assets/coffee.png" alt="grão de café">
+
+      <div>
+        <h4 data-section="suplemente" data-value="producto">SUPLEMENTOS ESPECIAIS TODO MÊS</h4>
+
+        <h1 data-section="suplemente" data-value="suplemente">𝑺𝑼𝑷𝑳𝑬𝑴𝑬𝑵𝑻𝑶𝑺</h1>
+        <h1 data-section="suplemente" data-value="coffee">Café não é só uma bebida</h1>
+
+        <p data-section="suplemente" data-value="suplemente coffee">Nosso Suplemento de Café é a escolha perfeita para dar um impulso à sua energia e desempenho.
+         Com ingredientes naturais cuidadosamente selecionados, oferecemos uma fórmula única que proporciona
+         foco e vitalidade. </p>
+
+        <button>
+          <a href="" data-section="suplemente" data-value="receive">
+            ASSINE E RECEBA
+          </a>
+        </button>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <button>
+      <a href="#">
+        cupom: <span>CFÉ</span>
+      </a>
+    </button>
+
+    <p data-section="suplemente" data-value="surprise">
+      Além disso, você também receberá mensalmente um mimo surpresa para deixar a sua experiência ainda mais gostosa.
+    </p>
+
+    <div>
+      <img src="./assets/coffee1.png" alt="">
+      <img src="./assets/coffee2.png" alt="">
+      <img src="./assets/coffee3.png" alt="">
+    </div>
+  </footer>
+  <script src="linguagem.js"></script>
 </body>
+
 </html>

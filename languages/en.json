@@ -1,14 +1,18 @@
 {
-   "menu": {
-       "home": "Home",
-           "menu": "Menu",
-           "what": "New",
-           "contact": "Contact"
-          },
-       
-    "text": {
-          "starbacks": "More than Cafe The Experience <span>Sᴛᴀʀʙᴀᴄᴋꜱ</span>",
-           "52": "With 52 years of dedication to the cafe, I invite you to explore with us the universe of flavor, tradition and unique quality of 'STARBACKS'. Get ready for an enriching sensory journey and awaken your LOVE for Coffee.",
-           "Learn": "Learn More"
-          }
-       }
+"menu": {
+    "start": "Start",
+    "store": "Store",
+    "past kits": "Past Kits",
+    "producers": "Producers",
+    "blog": "Blog"
+   },
+
+"suplemente": {
+   "producto": "SPECIAL SUPPLEMENTS EVERY MONTH",
+    "suplemente": "SUPPLEMENTS",
+    "coffee": "Coffee is not just a drink",
+    "suplemente coffee": "Our Coffee Supplement is the perfect choice to give your energy and performance a boost. With carefully selected natural ingredients, we offer a unique formula that provides focus and vitality.",
+    "receive": "SUBSCRIBE ",
+    "surprise": " In addition, you will also receive a monthly surprise treat to make your experience even more enjoyable."
+   }
+}
