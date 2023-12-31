@@ -1,18 +1,14 @@
 {
 "menu": {
-    "start": "Inicio",
-        "store": "Loja",
-        "past kits": "Kits passados",
-        "producers": "Produtores",
-        "blog": "Blog"
+    "home": "Home",
+        "menu": "Menu",
+        "what": "Novo",
+        "contact": "Contato"
        },
     
- "suplemente": {
-       "producto": "SUPLEMENTOS ESPECIAIS TODO MÊS",
-        "suplemente": "𝑺𝑼𝑷𝑳𝑬𝑴𝑬𝑵𝑻𝑶𝑺",
-        "coffee": "Café não é só uma bebida",
-        "suplemente coffee": "Nosso Suplemento de Café é a escolha perfeita para dar um impulso à sua energia e desempenho. Com ingredientes naturais cuidadosamente selecionados, oferecemos uma fórmula única que proporciona foco e vitalidade.",
-        "receive": "ASSINE E RECEBA",
-        "surprise": " Além disso, você também receberá mensalmente um mimo surpresa para deixar a sua experiência ainda mais gostosa."
+ "text": {
+       "starbacks": "<br>MᴀɪꜱﾠᴅᴏﾠϙᴜᴇﾠCᴀғᴇﾠAﾠExᴘᴇʀɪᴇɴᴄɪᴀﾠ<span>Sᴛᴀʀʙᴀᴄᴋꜱ</span>",
+        "52": "Cᴏᴍﾠ52ﾠᴀɴᴏsﾠᴅᴇﾠᴅᴇᴅɪᴄᴀᴄᴀᴏﾠᴀᴏﾠᴄᴀғᴇ,ﾠᴄᴏɴᴠɪᴅᴏﾠᴠᴏᴄᴇﾠᴀﾠᴇxᴘʟᴏʀᴀʀ ᴄᴏɴᴏsᴄᴏﾠᴏﾠᴜɴɪᴠᴇʀsᴏﾠᴅᴏﾠsᴀʙᴏʀ,ﾠᴛʀᴀᴅɪᴄᴀᴏﾠᴇﾠǫᴜᴀʟɪᴅᴀᴅᴇﾠᴜɴɪᴄa ﾠᴅᴀﾠ'sᴛᴀʀʙᴀᴄᴋs'.ﾠᴘʀᴇᴘᴀʀᴇ-sᴇﾠᴘᴀʀᴀﾠᴜᴍᴀﾠᴊᴏʀɴᴀᴅᴀﾠsᴇɴsᴏʀɪᴀʟﾠᴇɴʀɪǫᴜᴇᴄᴇᴅᴏʀaﾠᴇﾠᴅᴇsᴘᴇʀᴛᴇﾠsᴇᴜ AMOR pelo ᴄᴀғᴇ.",
+        "Learn": "Saiba mais"
        }
     }
